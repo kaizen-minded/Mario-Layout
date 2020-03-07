@@ -11,9 +11,11 @@
     </header>
     <section class="banner">
       <img src="./images/banner.png" alt="Mario Banner" />
-      <h2>Welcome to<br /><span>MarioClub</span></h2>
+      <div class="welcome">
+        <h2>Welcome to<br /><span>MarioClub</span></h2>
+      </div>
     </section>
-    <nav>
+    <nav class="main-nav">
       <ul>
         <li>Join the club</li>
         <li>Latest news</li>
@@ -22,7 +24,7 @@
       </ul>
     </nav>
     <main>
-      <section class="content-container">
+      <article class="content-container">
         <h1>It's a me, Mario</h1>
         <h2>
           <strong>
@@ -47,21 +49,27 @@
           Super Luigi select button super mushroom pixel swim warp zone slide
           bottomless pit. Spiny sprite!
         </p>
-        <ul>
-          <li><img src="./images/thumb-1.png" alt="Mario Screenshot 1" /></li>
-          <li><img src="./images/thumb-2.png" alt="Mario Screenshot 2" /></li>
-        </ul>
-      </section>
-      <section class="join">
-        <h3>Join Today!</h3>
-        <p>
-          bill blaster invincible Luigi! Fire flower buzzy beetle fire flower?
-        </p>
-        <form>
-          <input type="email" name="email" id="email" />
-        </form>
-      </section>
+      </article>
+      <ul>
+        <li><img src="./images/thumb-1.png" alt="Mario Screenshot 1" /></li>
+        <li><img src="./images/thumb-2.png" alt="Mario Screenshot 2" /></li>
+      </ul>
     </main>
+    <section class="join">
+      <h2>Join Today!</h2>
+      <p>
+        bill blaster invincible Luigi! Fire flower buzzy beetle fire flower?
+      </p>
+      <form>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Type email & hit enter"
+          required
+        />
+      </form>
+    </section>
     <footer>
       <h4>Copyright 2020 MarioClub</h4>
     </footer>
